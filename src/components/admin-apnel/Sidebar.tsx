@@ -2,10 +2,9 @@
 
 import { MdDashboard, MdManageAccounts } from "react-icons/md";
 import { GrTransaction } from "react-icons/gr";
-import { IoAnalytics, IoSettings } from "react-icons/io5";
+import { IoSettings } from "react-icons/io5";
 import { RiShoppingCartLine } from "react-icons/ri";
 import Link from "next/link";
-import { PathnameContext } from "next/dist/shared/lib/hooks-client-context.shared-runtime";
 import { usePathname } from "next/navigation";
 
 const menus = [
@@ -41,7 +40,7 @@ const Sidebar = () => {
 
   return <div className="bg-white w-[300px] min-h-screen p-4 shrink-0">
     <div className="flex items-center gap-4">
-      <img className= "size-12 rounded-lg" src="logo.jpg" alt="logo" />
+      <img className= "size-12 rounded-lg" src="logo.png" alt="logo" />
       <h2 className="text-[20px] font-semibold">The Brave Coders</h2>
     </div>
 
